@@ -1,3 +1,3 @@
 #!/bin/bash
 source /home/jenkins/.profile
-docker rm -f $(docker ps -a -q)
+sudo docker rm -f $(sudo docker ps -a -q)
